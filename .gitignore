@@ -1,6 +1,9 @@
-<<<<<<< HEAD
+# add my rule
 origin/
-=======
+*.mp4
+*.png
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -130,4 +133,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
->>>>>>> origin/master
