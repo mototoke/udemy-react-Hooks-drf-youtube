@@ -17,10 +17,10 @@ const useStyles = makeStyles((theme) => ({
 const NavBar = (props: any) => {
   const classes = useStyles();
 
-const Logout = () => {
-    props.cookies.remove('jwt-token');
-    window.location.href = '/';
-};
+  const Logout = () => {
+    props.cookies.remove("jwt-token");
+    window.location.href = "/";
+  };
 
   return (
     <AppBar position="static">
